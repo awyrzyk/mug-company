@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width", initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>MUGHOUSE</title>
+	<meta name="description" content="The company that produces and sells beautiful mugs."/>
+	<meta name="keywords" content="mug, business, company, shop online" />
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="index.css" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	<script src="index.js"></script>
+  </head>
+  
+  <body>
+	<a href="#" class="scrollUp"><i class="fas fa-angle-up"></i></a>
+	<header>
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container">
+			<a class="navbar-brand" href="#"><i class="fas fa-mug-hot"></i> M<span style="font-size: 1.2em;">U</span>GHOUSE</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+				<ul class="navbar-nav justify-content-end">
+				   <li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#" id="link1">About</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#" id="link2">Gallery</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#" id="link3">Services</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#" id="link4">Contact</a>
+				  </li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	</header> 
+
+	<section class="main">
+	<!-- image source: https://unsplash.com/ -->
+		<div class="background-image" style="background-image: url(img/mug.jpg)"></div>
+		<div class="main-content-area">
+			<h1>Creative warm-up solutions</h1>
+			<h3>Make your coffee tastes better</h3>
+			<a href="#" class="btn">Shop now</a>
+		</div>
+	</section>
+	
+	<section class="about">
+		<h3 class="title">About us</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero eros, elementum id mauris a, dictum bibendum purus. Sed vestibulum nulla felis, in pellentesque ante placerat nec. Aenean ultricies facilisis magna, at iaculis urna pulvinar sed. Vivamus a molestie orci, mattis facilisis mauris. Sed consequat eu risus ac aliquam. Nulla ut tempor nulla. Nam ultrices urna id neque eleifend, nec congue neque suscipit. Cras molestie purus ac aliquam sollicitudin. </p>
+		<hr>
+	</section>	
+	
+	<section class="gallery">
+		<ul class="grid">
+		<!-- images source: https://unsplash.com/ -->
+			<li class="small" style="background-image: url(img/mug1.jpg)"></li>
+			<li class="large" style="background-image: url(img/mug2.jpg)"></li>
+			<li class="large" style="background-image: url(img/mug3.jpg)"></li>
+			<li class="small" style="background-image: url(img/mug4.jpg)"></li>
+		</ul>
+		<a href="##">view more<i class="fas fa-angle-right"></i></a>
+ 	</section>
+	
+	<section class="services">
+		<h3 class="title">Our services</h3>
+		<hr>
+		<ul class="grid">
+			<li>
+				<i class="fas fa-award fa-3x"></i>
+				<h4>Premium quality</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie elit ac pellentesque ultricies. Praesent auctor eu eros quis placerat. Aliquam blandit egestas tellus, id mattis augue varius eget. Integer nibh lacus, dictum in sem sit amet, ultrices laoreet massa. Suspendisse viverra sit amet nisi sed mattis. </p>
+			</li>
+			<li>
+				<i class="fas fa-shopping-cart fa-3x"></i>
+				<h4>On-line shopping</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie elit ac pellentesque ultricies. Praesent auctor eu eros quis placerat. Aliquam blandit egestas tellus, id mattis augue varius eget. Integer nibh lacus, dictum in sem sit amet, ultrices laoreet massa. Suspendisse viverra sit amet nisi sed mattis. </p>
+			</li>
+			<li>
+				<i class="fas fa-globe fa-3x"></i>
+				<h4>International delivery</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie elit ac pellentesque ultricies. Praesent auctor eu eros quis placerat. Aliquam blandit egestas tellus, id mattis augue varius eget. Integer nibh lacus, dictum in sem sit amet, ultrices laoreet massa. Suspendisse viverra sit amet nisi sed mattis. </p>
+			</li>
+		</ul>
+	</section>
+	
+	<section class="testimonials">
+		<h3 class="title">They trusted us</h3>
+		<hr>
+		<div id="client">
+		<div>
+		<p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet leo dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris felis tortor, efficitur at rutrum sed, lacinia sit amet arcu. Sed tincidunt nulla neque. Nulla facilisi. Nulla nec vehicula. </p>
+		<p class="author">- Alice Radford</p>
+		</div>
+		<div id="person">
+		</div>
+		</div>
+		<div id="secondClient">
+		<div>
+		<p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet leo dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris felis tortor, efficitur at rutrum sed, lacinia sit amet arcu. Sed tincidunt nulla neque. Nulla facilisi. Nulla nec vehicula. </p>
+		<p class="author">- Hannah Smith</p>
+		</div>
+		<div id="person1">
+		</div>
+		</div>
+		<div id="client">
+		<div>
+		<p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet leo dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris felis tortor, efficitur at rutrum sed, lacinia sit amet arcu. Sed tincidunt nulla neque. Nulla facilisi. Nulla nec vehicula. </p>
+		<p class="author">- Michael Woods</p>
+		</div>
+		<div id="person2">
+		</div>
+		</div>
+	</section>
+	
+	<section class="contact">
+		<h3 class="title">Learn more</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet leo dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris felis tortor, efficitur at rutrum sed, lacinia sit amet arcu. Sed tincidunt nulla neque. Nulla facilisi. Nulla nec vehicula arcu.</p>
+		<hr>
+		<form>
+			<input type="text" placeholder="Your name">
+			<input type="email" placeholder="Your e-mail address">
+			<input type="email" placeholder="Phone number">
+			<textarea placeholder="Your message (max. 160 characters)" maxlength="160"></textarea>
+			<div class="submit">submit</div>
+		</form>
+	</section>
+	
+	<footer>
+		<p>&copy 2019 Mughouse. All Rights Reserved</p>
+		<ul>
+			<li><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+			<li><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+			<li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+			<li><a href="#"><i class="fab fa-google-plus-square fa-2x"></i></a></li>
+			<li><a href="#"><i class="fab fa-pinterest-square fa-2x"></i></a></li>
+		</ul>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>
